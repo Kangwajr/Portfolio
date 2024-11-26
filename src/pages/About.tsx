@@ -15,7 +15,6 @@ export default function About() {
              <img 
               src={PortfolioImage}
               alt="Developer workspace"
-              className="rounded-lg shadow-xl"
             />
           </div>
           <div>
