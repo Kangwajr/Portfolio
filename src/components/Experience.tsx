@@ -42,18 +42,18 @@ export default function Experience() {
       company: "Internet Market Bridge Alliance(imbra)",
       period: "Sep 2024 - Nov 2024",
       description: [
-            "Assisted in the development of front-end features using React",
-        "Participated in code reviews and team meetings",
-        "Learned and implemented modern development workflows",
-        "Contributed to the company's internal tools development"
+            "Assisted in the development of front-end features using React & Vue",
+            "Participated in code reviews and team meetings",
+            "Learned and implemented modern development workflows",
+            "Contributed to the company's internal tools development"
       ]
     },
     {
-      title: "Junior Developer",
+      title: "Junior Remote Junior Software Developer",
       company: "Kamstartech",
       period: "Aug 2023 - Nov 2023",
       description: [
-        "Developing and maintaining web applications using React and Node.js",
+        "Developing and maintaining web applications using Laravel and Vue.js",
         "Collaborating with senior developers on large-scale projects",
         "Implementing responsive designs and ensuring cross-browser compatibility",
         "Writing clean, maintainable code following best practices",
