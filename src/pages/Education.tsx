@@ -43,6 +43,10 @@ export default function Education() {
                     <span className="text-blue-400 mt-1.5">•</span>
                     <span>System Analysis & Design</span>
                   </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1.5">•</span>
+                    <span>Operating Systems</span>
+                  </li>
                 </ul>
                 
                 <h4 className="font-semibold text-lg mt-6">Achievements</h4>
