@@ -38,27 +38,29 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ title, company, period,
 export default function Experience() {
   const experiences = [
     {
-      title: "IT Help Desk Technician",
-      company: "Internet Market Bridge Alliance(imbra)",
+      title: "I.T Help Desk Support",
+      company: "Internet Market Bridge Alliance",
       period: "Sep 2024 - Nov 2024",
       description: [
-            "Assisted in the development of front-end features using React & Vue",
-            "Participated in code reviews and team meetings",
-            "Learned and implemented modern development workflows",
-            "Contributed to the company's internal tools development"
+        "Assisted in technical support to the user",
+        "Assisted in the development of front-end features using vue and React",
+        "Participated in code reviews and team meetings",
+        "Learned and implemented modern development workflows",
+        "Contributed to the company's internal tools development"
       ]
     },
     {
-      title: "Junior Remote Junior Software Developer",
-      company: "Kamstartech",
+      title: "Remote Junior Software Development Intern",
+      company: "kamstartech",
       period: "Aug 2023 - Nov 2023",
       description: [
-        "Developing and maintaining web applications using Laravel and Vue.js",
+        "Developing and maintaining web applications using laravel and vue.js",
         "Collaborating with senior developers on large-scale projects",
         "Implementing responsive designs and ensuring cross-browser compatibility",
-        "Writing clean, maintainable code following best practices",
+        "Writing clean, maintainable code following best practices"
       ]
-    }
+    },
+  
   ];
 
   return (

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Github, Linkedin, MapPin } from 'lucide-react';
 
 export default function Contact() {
@@ -30,7 +29,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold text-lg">Email</h3>
                 <a href="mailto:your.email@example.com" className="text-gray-400 hover:text-blue-400 transition-colors">
-                  your.email@example.com
+                kangwafackson00@gmail.com
                 </a>
               </div>
             </div>
@@ -54,7 +53,7 @@ export default function Contact() {
                 type="text"
                 id="name"
                 className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-400 text-gray-100"
-                placeholder="Your name"
+                placeholder="Mulenga Mulenga"
               />
             </div>
             <div>
@@ -63,7 +62,7 @@ export default function Contact() {
                 type="email"
                 id="email"
                 className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-400 text-gray-100"
-                placeholder="your.email@example.com"
+                placeholder="mulenga.mulenga@example.com"
               />
             </div>
             <div>

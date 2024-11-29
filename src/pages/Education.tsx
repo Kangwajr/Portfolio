@@ -17,7 +17,7 @@ export default function Education() {
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin size={16} />
-                  <span>Evelyn Hone College School Of Applied Arts And Commerce</span>
+                  <span>Evelyn Hone College School of Applied Arts And Commerce</span>
                 </div>
               </div>
               <div className="mt-6 space-y-4 text-gray-300">
@@ -37,7 +37,7 @@ export default function Education() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1.5">•</span>
-                    <span>Network Engineering</span>
+                    <span>Network Administration</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1.5">•</span>
@@ -49,15 +49,15 @@ export default function Education() {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1.5">•</span>
-                    <span>Hackerthon CTF 2023</span>
+                    <span>Participated In The Hackerthon CTF 2023</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1.5">•</span>
-                    <span>ZICTA Cybersecurity Certification</span>
+                    <span>Cisco Cnna1 certification</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1.5">•</span>
-                    <span>CISCO Cnna1</span>
+                    <span>ZICTA Cyber Security Certification</span>
                   </li>
                 </ul>
               </div>

@@ -41,7 +41,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>Lusaka, Zambia</li>
               <li>kangwafackson00@gmail.com</li>
-              <li>+260 (0) 974 815 758</li>
+              <li> (+260) 974 815 758</li>
             </ul>
           </div>
         </div>
