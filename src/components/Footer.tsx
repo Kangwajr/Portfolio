@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
@@ -11,15 +10,15 @@ export default function Footer() {
             <h3 className="text-xl font-semibold text-white mb-4">Fackson Kangwa</h3>
             <p className="mb-4">A passionate software developer focused on creating interactive and user-friendly applications.</p>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/kangwajr" target="_blank" rel="noopener noreferrer"
                 className="hover:text-blue-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://linkedin.com/fackson Kangwa" target="_blank" rel="noopener noreferrer"
                 className="hover:text-blue-400 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:your.email@example.com"
+              <a href="kangwafackson00@gmail.com"
                 className="hover:text-blue-400 transition-colors">
                 <Mail size={20} />
               </a>
