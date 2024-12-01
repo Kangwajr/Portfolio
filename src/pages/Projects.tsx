@@ -62,46 +62,46 @@ export default function Projects() {
       title: "E-Commerce Dashboard",
       description: "A comprehensive dashboard for managing online store operations with real-time analytics and inventory management.",
       technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/kangwajr",
+      liveUrl: "#",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80"
     },
     {
       title: "Task Management App",
       description: "A collaborative task management application with real-time updates and team collaboration features.",
       technologies: ["React", "Firebase", "Tailwind CSS"],
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/kangwajr",
       image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2055&q=80"
     },
     {
       title: "Weather Forecast App",
       description: "A modern weather application with detailed forecasts, interactive maps, and location-based services.",
       technologies: ["React", "OpenWeather API", "Leaflet"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/kangwajr",
+      liveUrl: "#",
       image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80"
     },
     {
       title: "Personal Blog Platform",
       description: "A full-featured blogging platform with markdown support, comments, and user authentication.",
       technologies: ["Next.js", "PostgreSQL", "Prisma", "Auth.js"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/kangwajr",
+      liveUrl: "#",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
     },
     {
       title: "Fitness Tracking App",
       description: "A mobile-responsive fitness tracking application with workout plans and progress monitoring.",
       technologies: ["React Native", "Redux", "Node.js", "MongoDB"],
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/kangwajr",
       image: "https://images.unsplash.com/photo-1461773518188-b3e86f98242f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
     },
     {
       title: "Real-time Chat Application",
       description: "A real-time messaging application with group chats, file sharing, and end-to-end encryption.",
       technologies: ["React", "Socket.io", "Express", "MongoDB"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/kangwajr",
+      liveUrl: "#",
       image: "https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80"
     }
   ];
