@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Menu, X, FileDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import NavButton from './NavButton';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +36,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.to}
@@ -49,6 +50,14 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            <NavButton
+              href="/Resume.pdf"
+              download
+              className="bg-blue-600 hover:bg-blue-700 text-white"
+            >
+              <FileDown size={18} />
+              <span>CV</span>
+            </NavButton>
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,6 +87,14 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              <NavButton
+                href="/Resume.pdf"
+                download
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white justify-center"
+              >
+                <FileDown size={18} />
+                <span>Download CV</span>
+              </NavButton>
             </div>
           </div>
         )}

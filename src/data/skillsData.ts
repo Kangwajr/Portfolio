@@ -1,4 +1,4 @@
-import { Code2, Database, Globe, Cpu, GitBranch, Terminal, Monitor, Cloud, Shield } from 'lucide-react';
+import { Code2, Database, Globe, Cpu, GitBranch, Terminal, Monitor, Cloud, Shield, Network, Server } from 'lucide-react';
 
 export const skillsData = [
   {
@@ -20,6 +20,44 @@ export const skillsData = [
     icon: Database,
     title: "Database",
     skills: ["SQL Databases", "PostgreSQL", "MariaDB"]
+  },
+  {
+    icon: Network,
+    title: "Networking",
+    skills: [
+      "TCP/IP Protocol Suite",
+      "Network Security",
+      "Routing & Switching",
+      "VLANs & Subnetting",
+      "Network Troubleshooting",
+      "Cisco Networking",
+      "Network Monitoring"
+    ]
+  },
+  {
+    icon: Cloud,
+    title: "Cloud Computing",
+    skills: [
+      "AWS Services (EC2, S3, Lambda)",
+      "Cloud Architecture",
+      "Serverless Computing",
+      "Cloud Security",
+      "Docker Containers",
+      "Microservices",
+      "CI/CD Pipelines"
+    ]
+  },
+  {
+    icon: Server,
+    title: "DevOps & Infrastructure",
+    skills: [
+      "Linux System Administration",
+      "Shell Scripting",
+      "Infrastructure as Code",
+      "Container Orchestration",
+      "Monitoring & Logging",
+      "Automation Tools"
+    ]
   },
   {
     icon: Globe,
@@ -48,17 +86,6 @@ export const skillsData = [
       "WSL (Windows Subsystem for Linux)",
       "Terminal/Command Line",
       "Bash Scripting"
-    ]
-  },
-  {
-    icon: Cloud,
-    title: "Cloud & Deployment",
-    skills: [
-      "Netlify",
-      "Vercel",
-      "GitHub Pages",
-      "Firebase",
-      "Basic AWS Services"
     ]
   },
   {
